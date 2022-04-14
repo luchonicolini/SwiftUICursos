@@ -13,6 +13,12 @@
 		195E6AD32804AEA70093AC1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E6AC12804AEA40093AC1F /* ContentView.swift */; };
 		195E6AD42804AEA70093AC1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195E6AC22804AEA70093AC1F /* Assets.xcassets */; };
 		195E6AD52804AEA70093AC1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195E6AC22804AEA70093AC1F /* Assets.xcassets */; };
+		195E6AE42804E53A0093AC1F /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E6AE32804E53A0093AC1F /* Styles.swift */; };
+		195E6AE62804ECDC0093AC1F /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E6AE52804ECDC0093AC1F /* AccountView.swift */; };
+		1975C1722806A3FB00085873 /* HexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1975C1712806A3FB00085873 /* HexagonView.swift */; };
+		19F72A59280761FC00667FB1 /* BlobShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F72A58280761FC00667FB1 /* BlobShape.swift */; };
+		19F72A5B280775C200667FB1 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F72A5A280775C200667FB1 /* TabBar.swift */; };
+		19F72A5D28077DD600667FB1 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F72A5C28077DD600667FB1 /* Tab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		195E6AC72804AEA70093AC1F /* CardViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		195E6ACD2804AEA70093AC1F /* CardViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		195E6ACF2804AEA70093AC1F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		195E6AE32804E53A0093AC1F /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		195E6AE52804ECDC0093AC1F /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		1975C1712806A3FB00085873 /* HexagonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonView.swift; sourceTree = "<group>"; };
+		19F72A58280761FC00667FB1 /* BlobShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlobShape.swift; sourceTree = "<group>"; };
+		19F72A5A280775C200667FB1 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		19F72A5C28077DD600667FB1 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +57,9 @@
 		195E6ABA2804AEA40093AC1F = {
 			isa = PBXGroup;
 			children = (
+				19F72A5C28077DD600667FB1 /* Tab.swift */,
+				19F72A5A280775C200667FB1 /* TabBar.swift */,
+				195E6ADE2804E4F50093AC1F /* Adicionales */,
 				195E6ABF2804AEA40093AC1F /* Shared */,
 				195E6ACE2804AEA70093AC1F /* macOS */,
 				195E6AC82804AEA70093AC1F /* Products */,
@@ -76,6 +91,17 @@
 				195E6ACF2804AEA70093AC1F /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		195E6ADE2804E4F50093AC1F /* Adicionales */ = {
+			isa = PBXGroup;
+			children = (
+				195E6AE32804E53A0093AC1F /* Styles.swift */,
+				195E6AE52804ECDC0093AC1F /* AccountView.swift */,
+				1975C1712806A3FB00085873 /* HexagonView.swift */,
+				19F72A58280761FC00667FB1 /* BlobShape.swift */,
+			);
+			path = Adicionales;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,8 +202,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				195E6AE62804ECDC0093AC1F /* AccountView.swift in Sources */,
+				1975C1722806A3FB00085873 /* HexagonView.swift in Sources */,
+				19F72A59280761FC00667FB1 /* BlobShape.swift in Sources */,
+				19F72A5D28077DD600667FB1 /* Tab.swift in Sources */,
+				195E6AE42804E53A0093AC1F /* Styles.swift in Sources */,
 				195E6AD22804AEA70093AC1F /* ContentView.swift in Sources */,
 				195E6AD02804AEA70093AC1F /* CardViewDemoApp.swift in Sources */,
+				19F72A5B280775C200667FB1 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

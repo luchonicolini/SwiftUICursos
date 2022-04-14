@@ -16,13 +16,15 @@ struct ContentView: View {
                 .renderingMode(.original)
                 .aspectRatio(contentMode:.fill)
                 .frame(width:300,height:250)
-                .cornerRadius(20.0)
+                .cornerRadius(10.0)
+                .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
                 
             Text("Hotel Metropol ")
                 .font(.largeTitle)
                 .fontWeight(.bold)
             //.primary,.primary.opacity(0.5)
-                .foregroundStyle(.linearGradient(colors: [.red,.orange], startPoint: .topLeading, endPoint: .bottomTrailing))
+                .foregroundStyle(.linearGradient(colors: [.orange,.red], startPoint: .topLeading, endPoint: .bottomTrailing))
+            
           
             Text("Mar del plata".uppercased())
                 .font(.footnote)
@@ -44,6 +46,8 @@ struct ContentView: View {
         )
         
         .shadow(color: .primary.opacity(0.3), radius: 10, x: 0, y: 10)
+        //modificador -> carpeta stylos
+        .strokeStyle()
         .padding(.horizontal,20)
         //.offset(x: 250, y: -100)
         .background(Image("Blob 1"))
